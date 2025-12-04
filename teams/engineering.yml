@@ -18,6 +18,9 @@ queries:
 agent_options:
   path: ../lib/agent-options.yml
 controls:
+  ipados_updates:
+    deadline: "2025-12-25"
+    minimum_version: "26.0"
   enable_disk_encryption: true
   macos_settings:
     custom_settings:
