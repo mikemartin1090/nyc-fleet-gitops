@@ -12,10 +12,10 @@ agent_options:
 controls: # This cannot be set here and in no-team.yml
 org_settings:
   fleet_desktop:
-    transparency_url: https://fieldtripmike.com
+    transparency_url: https://fieldtripmike.com # This is a dummy URL for demonstration purposes.
   host_expiry_settings:
     host_expiry_enabled: true
-    host_expiry_window: 120
+    host_expiry_window: 120 # Set this to 120 days to match our current Intune configuration.
   server_settings:
     server_url: $FLEET_URL
   org_info:
